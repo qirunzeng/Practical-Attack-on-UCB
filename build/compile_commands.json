@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -I\"/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c \"/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/main.cpp\"",
+  "file": "/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
