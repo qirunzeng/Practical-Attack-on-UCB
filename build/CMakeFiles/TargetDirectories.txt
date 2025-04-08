@@ -1,3 +1,0 @@
-/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/build/CMakeFiles/main.dir
-/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/build/CMakeFiles/edit_cache.dir
-/Users/qirun/Documents/Scientific Research/Practical Attacks On OLTR/exp/build/CMakeFiles/rebuild_cache.dir
