@@ -51,11 +51,11 @@ public:
         empirical_mean_vec[arm] = (empirical_mean_vec[arm] * pull[arm] + fdbk) / (pull[arm]+1);
         // std::cout << empirical_mean_vec[arm] << " | ";
         pull[arm]++;
-    //     std::cout << arm << std::endl;
-    //     for (int i = 0; i < K; ++i) {
-    //         std::cout << empirical_mean_vec[i] << " ";
-    //     }
-    //     std::cout << std::endl;
+        // std::cout << arm << std::endl;
+        // for (int i = 0; i < K; ++i) {
+        //     std::cout << empirical_mean_vec[i] << " ";
+        // }
+        // std::cout << std::endl;
     }
 };
 
