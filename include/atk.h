@@ -31,7 +31,7 @@ namespace atk {
             int arm = bandit_alg.step();
             if (arm != target) {
                 // non_target_pull++;
-                double b = beta(bandit_alg.pull[arm]);
+                double b = beta(bandit_alg.pull[target]);
                 // std::cout << b << std::endl;
                 double fdbk0 = env::generateGaussian(arm);
                 double fdbk = (bandit_alg.empirical_mean_vec[target]-2*b-3*sigma) * (bandit_alg.pull[arm]+1) - bandit_alg.empirical_mean_vec[arm] * bandit_alg.pull[arm];
