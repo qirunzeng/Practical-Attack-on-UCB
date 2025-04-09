@@ -17,7 +17,7 @@ namespace env {
         sigma = default_sigma;
         mean_vec.resize(n);
         for (int i = 0; i < n; ++i) {
-            mean_vec[i] = static_cast<double> (n-i) / n + 1.;
+            mean_vec[i] = static_cast<double> (n-i) / (n+1);
         }
         distributions.reserve(n);
         for (int i = 0; i < n; ++i) {
